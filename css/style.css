@@ -7,43 +7,54 @@ body{
     width: 940px;
     margin: 0 auto;
     text-align: center;
+    font-size: 2em;
 }
 
 .logo{
-    margin: 60px 0 0 20px;
-    display: inline-block;
+    position: absolute;
+    left: 84px;
+    right: 0%;
+    top: 20px;
+    bottom: 0%;
 }
 
 .titulo{
     display: inline-block;
-    margin: 30px auto;
-    padding: 1em;
-    font-size: 2em;
+    margin: 35px auto;
+    padding: 0;
+    
 }
 
-main{
+.principal{
     text-align: center;
+    vertical-align: center;
+    margin: 20px auto;
 }
 
 .cajas{
     display: inline-block;
     margin: 0 auto;
-    padding: 20px 20px;
+    padding: 10px 10px;
     text-align: center;
 }
 
 .cajas h1{
-    font-size: x-large;
+    font-size: 20px;
     margin: 10px auto;
+    font-weight: bold;
 }
 
 .cajas p{
     margin: 1em auto;
 }
 
-form textarea{
+form textarea, #traducido{
     display: block;
     margin: 20px auto;
+    border: 0;
+    border-radius: 20px;
+    padding: 2%;
+    border: #def;
 }
 
 .boton{
@@ -69,12 +80,24 @@ form textarea{
     cursor: pointer;
 }
 
+.caja-traducido {
+    border: none;
+    width: 500px;
+    height: 90px;
+    margin: 0 0 15px;
 
-/*.logo{
-    position: absolute;
-    left: 84px;
-    right: 0%;
-    top: 40px;
-    bottom: 0%;
 }
 
+footer{
+    background-color: #D8DFE8;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    vertical-align: middle;
+    padding: 40px;
+}

@@ -23,27 +23,28 @@
         </header>
 
         <main>
-            <div class="cajas">
-                <h1>Ingrese su mensaje</h1>
-                <p>Recuerde no ingresar mayúculas, acentos, ni caracteres especiales.</p>
-                <form id="ingresar-texto">
-                    <textarea name="" id="mensaje" cols="60" rows="3" class="caja-texto" required></textarea>
-                    <input type="button" id="encriptar" value="Encriptar" class="boton">
-                    <input type="button" id="desencriptar" value="Desencriptar" class="boton">
-                </form>
-            </div>
-            <div class="cajas">
-                <h1>Mensaje</h1>
-                <p> </p>
-                <form id="texto-ingresado">
-                    <textarea name="" id="mensaje-traducido" cols="60" rows="3" class="caja-traducido" required></textarea>
-                    <input type="button" value="Copiar" id="copiar" class="boton">
-                </form>            
-            </div>
+            <section class="principal">
+                <div class="cajas">
+                    <h1>Ingrese su mensaje</h1>
+                    <p>Recuerde no ingresar mayúculas, acentos, ni caracteres especiales.</p>
+                    <form id="ingresar-texto">
+                        <textarea name="" id="mensaje" cols="60" rows="6" class="caja-texto" placeholder="Ingrese su texto aquí" required></textarea>
+                        <input type="button" id="encriptar" value="Encriptar" class="boton">
+                        <input type="button" id="desencriptar" value="Desencriptar" class="boton">
+                    </form>
+                </div>
+                <div class="cajas">
+                    <h1>Mensaje Traducido:</h1>
+                    <div id="texto-traducido">
+                        <input class="caja-traducido" type="text" id="traducido" readonly="readonly" placeholder="Texto traducido"></input>
+                        <input type="button" value="Copiar" id="copiar" class="boton">
+                    </div>          
+                </div>
+            </section>
         </main>
         <script src="js/main.js"></script>
 
         <footer>
-
+            <p class="copyright">&copy  Copyright - Diseño Ariel Martins - 2022.</p>
         </footer>
     </body>
