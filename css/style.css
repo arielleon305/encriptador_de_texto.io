@@ -3,6 +3,73 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.cabecera{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo{
+    margin: 60px 0 0 20px;
+    display: inline-block;
+}
+
+.titulo{
+    display: inline-block;
+    margin: 30px auto;
+    padding: 1em;
+    font-size: 2em;
+}
+
+main{
+    text-align: center;
+}
+
+.cajas{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.cajas h1{
+    font-size: x-large;
+    margin: 10px auto;
+}
+
+.cajas p{
+    margin: 1em auto;
+}
+
+form textarea{
+    display: block;
+    margin: 20px auto;
+}
+
+.boton{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: #D8DFE8;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.boton:hover{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: #0A3871;
+    border-radius: 24px;
+    border: 1px solid #D8DFE8;
+    cursor: pointer;
+}
+
+
 /*.logo{
     position: absolute;
     left: 84px;

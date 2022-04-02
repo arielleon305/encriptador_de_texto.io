@@ -19,22 +19,29 @@
         <header>
             <div class="cabecera">
                 <img src="img/Vector.png" alt="logo Alura" class="logo">
-            </div>
+                <h1 class="titulo">ENCRIPTADOR DE TEXTO</h1>
         </header>
 
         <main>
-            <h1>Ingrese su mensaje</h1>
-            <div class="caja">
+            <div class="cajas">
+                <h1>Ingrese su mensaje</h1>
                 <p>Recuerde no ingresar mayúculas, acentos, ni caracteres especiales.</p>
-                <form id="texto">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="" id="mensaje" cols="40" rows="2" class="input-padron" required></textarea>
+                <form id="ingresar-texto">
+                    <textarea name="" id="mensaje" cols="60" rows="3" class="caja-texto" required></textarea>
+                    <input type="button" id="encriptar" value="Encriptar" class="boton">
+                    <input type="button" id="desencriptar" value="Desencriptar" class="boton">
                 </form>
             </div>
-                
-                
-            
+            <div class="cajas">
+                <h1>Mensaje</h1>
+                <p> </p>
+                <form id="texto-ingresado">
+                    <textarea name="" id="mensaje-traducido" cols="60" rows="3" class="caja-traducido" required></textarea>
+                    <input type="button" value="Copiar" id="copiar" class="boton">
+                </form>            
+            </div>
         </main>
+        <script src="js/main.js"></script>
 
         <footer>
 
