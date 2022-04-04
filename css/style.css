@@ -5,9 +5,9 @@ body{
 
 .cabecera{
     width: 940px;
-    margin: 0 auto;
     text-align: center;
     font-size: 2em;
+    margin: 0 auto;
 }
 
 .logo{
@@ -26,6 +26,7 @@ body{
 }
 
 .principal{
+    
     text-align: center;
     vertical-align: center;
     margin: 20px auto;
@@ -50,7 +51,7 @@ body{
 
 form textarea, #traducido{
     display: block;
-    margin: 20px auto;
+    margin: 20px auto; 
     border: 0;
     border-radius: 20px;
     padding: 2%;
@@ -100,4 +101,22 @@ footer p{
     text-align: center;
     vertical-align: middle;
     padding: 40px;
+}
+
+@media screen and (max-width:480px){
+
+
+    .cabecera, .titulo, .principal, .cajas, .ingresar-texto, .texto-traducido{
+        margin: 0 auto;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    .logo{
+        position: relative;
+        left: 290px;
+        top: 45px;
+        bottom: 0%;
+    }
 }
